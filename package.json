@@ -1,0 +1,37 @@
+{
+  "name": "dark-mod-art",
+  "displayName": "dark-mod-art",
+  "description": "Dark theme",
+  "publisher": "telianedward",
+  "version": "0.0.1",
+  "author": {
+    "name": "edward"
+  },
+  "categories": ["Themes"],
+  "icon": "themes/img.png",
+  "galleryBanner": {
+    "color": "#232323",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Telianedward/DarkModeART.git",
+    "email": "director@vhst.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Telianedward/DarkModeART.git"
+  },
+  "homepage": "https://github.com/Telianedward/DarkModeART/blob/main/README.md",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark mode ART",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark mode ART-color-theme.json"
+      }
+    ]
+  }
+}
